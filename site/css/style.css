@@ -1,11 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.title{
+	position: absolute;
+	border: 1px solid black;
+	top: 0;
+	right: 0;
+
+}
+
+.container{
+	position: relative;
+	padding: 5px;
+	margin-bottom: 20px;
+	height: 90%;
+	width: 95%;
+	border: 1px solid black;
+
+}
 .row{
 	width: 100%;
+}
+.BackgroungRed{
+	background-color: red;
+}
+.BackgroungBlue{
+	background-color: blue;
+}
+.BackgroungYellow{
+	background-color: yellow;
+}
+.BackgroundGray{
+	background-color: gray;
+}
+.FontColorWhite{
+	color: white;
 }
 
 @media (min-width: 992px){
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5 .col-lg-6, .col-lg-7, .col-lg-8, .cpl-lg-9, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
 		float: left;
-		border: 1px solid black;
+		
 	}
 	.col-lg-1{
 		width: 8.33%;
@@ -49,7 +85,7 @@
 @media (min-width: 768px) and (max-width: 991px){
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	float: left;
-	border: 1px solid black;
+	
 	}
 	.col-md-1{
 		width: 8.33%;
@@ -93,7 +129,7 @@
 @media (max-width: 767px){
 .col-mn-1, .col-mn-2, .col-mn-3, .col-mn-4, .col-mn-5, .col-mn-6, .col-mn-7, .col-mn-8, .col-mn-9, .col-mn-10, .col-mn-11, .col-mn-12{
 	float: left;
-	border: 1px solid black;
+	
 	}
 	.col-mn-1{
 		width: 8.33%;
